@@ -1,0 +1,111 @@
+:root {
+  --color_primary: #008081;
+  --color_exlightprimary: rgba(0, 128, 129, 0.1);
+  --color_lightprimary: #22cca5;
+  --shadow_primary: rgba(98, 89, 202, 0.2);
+  --color_dark: #444444;
+  --color_secondary: #8994A3;
+  --color_light: #f1f1f1;
+  --color_grey: #DEE3EA;
+  --color_dots: #C5CBD3;
+  --color_white: #FFFFFF;
+  --border_color: #ebeef1;
+}
+
+// Colors 
+.f-primary {
+  color: var(--color_primary);
+}
+
+.f-lightprimary {
+  color: var(--color_lightprimary);
+}
+
+.f-secondary {
+  color: var(--color_secondary);
+}
+
+.f-secondary {
+  color: var(--color_secondary);
+}
+
+.f-light {
+  color: var(--color_light);
+}
+
+.f-grey {
+  color: var(--color_grey);
+}
+
+.f-dots {
+  color: var(--color_dots);
+}
+
+.f-white {
+  color: var(--color_white);
+}
+
+// bg Colors 
+.bg-primary {
+  background-color: var(--color_primary);
+}
+
+.bg-lightprimary {
+  background-color: var(--color_lightprimary);
+}
+
+.bg-secondary {
+  background-color: var(--color_secondary);
+}
+
+.bg-secondary {
+  background-color: var(--color_secondary);
+}
+
+
+.bg-light {
+  background-color: var(--color_light);
+}
+
+.bg-grey {
+  background-color: var(--color_grey);
+}
+
+.bg-dots {
+  background-color: var(--color_dots);
+}
+
+.bg-white {
+  background-color: var(--color_white);
+}
+
+// Font Wight
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+// align text{
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+  display: block;
+}

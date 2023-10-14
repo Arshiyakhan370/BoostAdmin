@@ -1,0 +1,204 @@
+@import '../Variables/Variables.scss';
+
+.header_body {
+  min-height: 100vh;
+  width: 100%;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 32px 2px #0000000D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f3f9;
+
+  .form {
+    max-width: 55rem;
+    width: 100%;
+
+    .form_logo {
+      height: 4rem;
+      max-width: 100%;
+
+      svg,
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.signForm {
+  background-color: var(--color_white);
+  padding: 2.4rem;
+  border-radius: 0.8rem;
+  margin: 2.5rem auto;
+  box-shadow: 0px 0px 16px 0px #0000000D;
+
+  h4.form_title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: center;
+
+    @media screen and (max-width:991px) {
+      font-size: 1.8rem;
+    }
+  }
+
+  h5.form_desc {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--color_secondary);
+    text-align: center;
+    margin-top: 0.6rem;
+  }
+
+  a.other_link {
+    font-size: 1.4rem;
+    color: var(--color_primary);
+    font-weight: 600;
+    display: block;
+    margin-top: 0.8rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .form_box {
+    margin-top: 2rem;
+
+    .with_action {
+      position: relative;
+
+      button.input_actions {
+        height: 3rem;
+        min-width: 3rem;
+        background-color: transparent;
+        position: absolute;
+        top: 50%;
+        right: 1rem;
+        transform: translateY(-50%);
+        color: var(--color_primary);
+        font-size: 1.1rem;
+        text-transform: capitalize;
+
+        svg {
+          font-size: 2rem;
+        }
+      }
+    }
+
+
+    @media screen and (max-width:991px) {
+      margin-top: 1rem;
+    }
+  }
+
+  .form_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+
+    @media screen and (max-width:991px) {
+      margin-top: 2rem;
+    }
+  }
+
+  p.tag_line {
+    font-size: 1.3rem;
+    color: var(--color_secondary);
+    margin-top: 0.4rem;
+  }
+
+  p.lines {
+    font-size: 1.4rem;
+    color: var(--color_secondary);
+    font-weight: 600;
+    margin-right: 0.4rem;
+
+    &.primary {
+      color: var(--color_primary);
+    }
+  }
+
+  a.other_link {
+    margin-top: 0;
+  }
+
+  .otp_inputes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+
+    .otp_filed {
+      height: 4.8rem;
+      width: 4.8rem;
+      margin: 0 1rem;
+      display: block;
+
+      .MuiInputBase-root {
+        height: 100%;
+
+        input.MuiInputBase-input {
+          border-radius: 0.5rem;
+          font-size: 1.5rem;
+          color: var(--color_secondary);
+          border: 1px solid var(--color_secondary);
+          padding: 1.2rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  button.sign_form_btn {
+    padding: 1rem;
+    border-radius: 4rem;
+    font-size: 1.4rem;
+    color: var(--color_white);
+    background-color: var(--color_primary);
+    font-weight: 500;
+    text-transform: capitalize;
+
+    &:hover {
+      background-color: var(--color_lightprimary);
+    }
+  }
+
+  @media screen and (max-width:991px) {
+    margin: 2rem 0;
+  }
+}
+
+.sign_inup_footer {
+  text-align: center;
+
+  p {
+    font-size: 1.3rem;
+    color: var(--color_secondary);
+    font-weight: 600;
+  }
+}
+
+
+.otp_verify_Progress {
+  border-radius: 50%;
+  background-color: #F0F0F0;
+  height: 6.5rem;
+  width: 6.5rem;
+  margin: 2rem auto;
+  position: relative;
+
+  .Progress_bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 1rem solid var(--color_primary);
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+}
